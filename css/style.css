@@ -1,0 +1,56 @@
+*{
+    font-family: sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    /*Растягивать background по высоте если маленький боди */
+    height: 100%;
+}
+
+body{
+    background-image: url("../img/1.jpeg");
+    background-repeat: no-repeat;
+    /* cover чтоб полностью заполнить картинку */
+    background-size: cover;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
+
+input{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding-left: 10px;
+    outline: none;
+    font-size: 17px;
+}
+
+form{
+    margin: auto;
+    width: 600px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+button{
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+}
